@@ -13,3 +13,8 @@ The lab is situated at the Deeley Research Centre (part of BC Cancer-Victoria) o
 ### Hiring! 
 We currently have positions available for a graduate student, a postdoc and a computational biologist. Please see the Contact section for details. 
 
+
+
+
+### BC-Cancer-Victoria and the University of Victoria are located on the traditional and unceded territory of the Lək̓ʷəŋən Peoples, known today as the Esquimalt and Songhees Nations. 
+
