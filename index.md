@@ -16,5 +16,5 @@ We currently have positions available for a graduate student, a postdoc and a co
 
 
 
-### BC-Cancer-Victoria and the University of Victoria are located on the traditional and unceded territory of the Lək̓ʷəŋən Peoples, known today as the Esquimalt and Songhees Nations. 
+### BC Cancer-Victoria and the University of Victoria are located on the traditional and unceded territory of the Lək̓ʷəŋən Peoples, known today as the Esquimalt and Songhees Nations. 
 
