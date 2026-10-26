@@ -1,0 +1,127 @@
+- name: Dr. Nicolette Fonseca
+  is_pi: True
+  is_current: True
+  position: Principal Investigator
+  scholar: https://scholar.google.ca/citations?user=GGYRlxQAAAAJ&hl=en
+  github: https://github.com/nicolettef
+  bio: >
+    I am an Assistant Professor in the School of Molecular Life Sciences at the University of Victoria
+    and a Scientist at BC Cancer-Victoria's Deeley Research Centre. I completed my PhD in Microbiology
+    and Immunology at the University of British Columbia. My PhD thesis focused on understanding how T helper cells
+    orchestrate the balance between protection and pathology during viral respiratory infection. Motivated by a keen interest
+    in cancer and bioinformatics, I then joined Dr. Alexander Wyatt's clinical genomics laboratory at the Vancouver Prostate Centre.
+    During this time, I worked with clinician co-investigators at the <a href="https://www.bccrc.ca/dept/cid/bc-genitourinary-cancer-biobank">BC Cancer Genitourinary Biobank</a>
+    on projects that studied the association between the abundance of circulating tumour DNA (ctDNA) and patient outcomes. While learning the ropes of cancer genomics,
+    I began probing interactions between genetically distinct prostate tumours and the surrounding immune microenvironment. As a trained immunologist, I was curious about the genomic features of a tumour that
+    that shape immune cell infiltration in human prostate tumours and the technologies that enable these immunogenomic studies. My research program at the University of Victoria sits at this exciting intersection of cancer genomics and
+    immunology. My goal is to identify genetic and immune biomarkers that predict patient outcomes including response to immunotherapy in advanced prostate cancer.
+
+    Outside of the lab, I enjoy spending time outdoors usually chasing after my toddler with brief periods of rest involving coffee (for me) and treats.
+  photo: team/nfonseca.jpg          # file at images/team/fonseca.jpg
+
+
+- name: Ola Przydatek
+  is_pi: False
+  is_current: True
+  position: Research Assistant I
+  scholar: https://scholar.google.ca/citations?user=InlFnkQAAAAJ&hl=en
+  bio: >
+   I graduated from the University of Victoria with a Honours BSc. in Microbiology (co-op) in 2025. My honours thesis work with the Reynolds Laboratory explored how early life disruptions to the microbiota can have long term influences on intestinal health and immune development. This experience led me to the Fonseca Lab, where I share my time between our prostate cancer-related research projects, the VHL Biobank, and lab administration.  My current focus is on generating multiplex immunofluorescence, spatial transcriptomic, and DNA sequencing datasets for bone-metastatic prostate cancer tissue samples, as well as working on a pilot project to detect novel plasma protein biomarkers from patients with VHL disease. When I'm not at the lab, I enjoy practicing yoga, cooking, trying out new cafes, and going for long walks with my partner and my dog.
+  photo: team/aprzydatek.jpg #insert file location
+
+- name: Oscar Grainger
+  is_pi: False
+  is_current: True
+  position: Masters student
+  github: https://github.com/ograinger
+  bio: >
+   Before joining the Fonseca Lab as a graduate student, I completed a BSc in Microbiology from the University of Victoria. During my undergraduate degree, I studied plastid function in a novel protozoan with the Gawryluk Lab, through bioinformatic analysis of metatranscriptomic data. In my current role, I am investigating the influence of genomic subtype on spatial immune phenotypes in bone-metastatic prostate cancer, with the goal of identifying tumour subtypes
+   with immunotherapeutic potential. In my free time I enjoy riding my bike, ice skating, and playing frisbee golf!
+  photo: team/ograinger.png #insert file location
+
+- name: Jaspreet Sidhu
+  is_pi: False
+  is_current: True
+  position: Research Assistant I
+  scholar: https://scholar.google.ca/citations?hl=en&user=j3wC8NIAAAAJ
+  github: https://github.com/jaspreetks
+  bio: >
+   I have a BSc in Microbiology and Computer Science. My previous research includes catalysis and organometallic chemistry with the McIndoe group at UVic and infectious bacterial disease surveillance at the National Microbiology Laboratory. My current role is spread over multiple projects, testing and building computation pipelines for immune cell phenotyping from spatial imaging data (Phenocycler Fusion and 10X Visium HD) and calling genetic immune escape events in patient samples. When I'm not at my keyboard (rare), I enjoy lifting weights, watching formula 1, attempting latte art, and building more keyboards.
+  photo: team/jsidhu.png
+
+- name: Cass Luksik
+  is_pi: False
+  is_current: True
+  position: Research Assistant I
+  scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=PHgXaLwAAAAJ&gmla=AERr9JEm-J6xtx7l2Rk-Ij9Z4-cpwRDBtnSxT9aXwEHLaBM20p0OP2VgmqXK8QC0qDKddSCfFTRNgTTwP07hMTjigVEaR-8L-mrERQ
+  bio: >
+   I have a BSc. in Microbiology (co-op) from the University of Victoria and my previous research experience was centered around  tumor histology, immunology, and high-throughput antibody development. Currently, I am responsible for the continued development of the BC Cancer von Hippel-Lindau (VHL) Biobank, planning and performing research using patient-derived biospecimens, and finding ways to use cell lines as a model for studying clear cell renal cell carcinoma (ccRCC). My present research focus includes analyzing the pathology and tumor microenvironment of sporadic vs. VHL ccRCC pre and post treatment with belzutifan via H&E, IHC and mIF. My hobbies outside of the lab include learning about gross anatomy through the University of Toronto, oil painting, reading, figure skating, and practicing yoga.
+  photo: team/cluksik.jpg #insert file location
+
+- name: Julia Hemley
+  is_pi: False
+  is_current: True
+  position: Honour's student
+  bio: >
+   I am currently pursuing a BSc with Honours in Biochemistry at the University of Victoria. My work in the Fonseca lab revolves around image analysis of cancerous prostate tissue from patients with DNA damage repair deficiencies. In analyzing these images, I hope to characterize immune cell populations and infiltration in this unique subset of prostate cancer patients. Outside of the lab, I try to spend as much time as I can in nature and am an avid climber, hiker, skier, etc!
+  photo: team/jhemley.jpg #insert file location
+
+- name: Nicole Aggrey-Fynn
+  is_pi: False
+  is_current: False
+  position: Work study student
+  bio: >
+   Nicole was the first work-study student in the lab. She helped test QuPath for viewing multiplexed immunofluorescence images and helped us understand how immune cell
+   markers stain in bone marrow by inspecting images from a <a href="https://doi.org/10.1016/j.cell.2024.04.013">published dataset</a>.
+  photo: team/naggreyfynn.jpg #insert file location
+
+- name: Camilo Cuellar
+  is_pi: False
+  is_current: False
+  position: Mitacs Globalink Research Intern (Summer 2026)
+  bio: >
+   Camilo spent the summer months with us evaluating methods to co-register H&E and mIF images so we could teach GigaTIME to predict
+   a virtual population of immune cells. He also helped us process our first Visium HD spatial transcriptomics datasets. He has returned to
+   Colombia to complete the final year of his Systems Engineering undergraduate program.
+
+- name: Emilia Vozian
+  is_pi: False
+  is_current: False
+  position: Research Experience Student (Summer 2026)
+  bio: >
+   Emilia had a compact and productive summer research experience in our lab where learned basic wet lab skills and performed visual quality control of mIF images
+   generated from bone tumour tissue that we were studying for the first time. She made detailed notes and communicated
+   her findings beautifully.
+
+- name: Navya Gadhiraju
+  is_pi: False
+  is_current: False
+  position: Research Experience Student (Summer 2026)
+  bio: >
+   Navya learned basic wet lab skills and made her first foray into coding. She helped us visualise the time between blood sample collection and
+   processing in two biobanks we collaborate with. This helped us design an experiment to test protein stability in blood collection
+   tubes as this is an important pre-analytical variable when measuring protein biomarkers. Navya is completing her undergraduate degree in biomedical
+   engineering at the University of Victoria.
+
+
+- name: Carolina St-Pierre Rosales
+  is_pi: False
+  is_current: False
+  position: Research Experience Student (Jan-March 2026)
+  bio: >
+   Carolina helped us put together a protocol for extracting mRNA from FFPE tissue and learned how the 10X Visium HD platform
+   enables spatial gene expression analysis. She is now back in school completing her final year of undergraduate studies at UVic.
+  photo: team/cstpierrerosales.jpg
+
+- name: Erin Bell
+  is_pi: False
+  is_current: False
+  position: Research Associate (part-time, June 2025-Feb 2026)
+  bio: >
+   Erin was the first person to join the lab after it launched in March 2025. She helped hugely to put together biosafety and ethics protocols that enable our
+   prostate and kidney cancer research projects. Erin is now an Associate Scientist at Nanovation Therapeutics in Vancouver BC.
+
+  photo: team/ebell.jpg
+
+
+

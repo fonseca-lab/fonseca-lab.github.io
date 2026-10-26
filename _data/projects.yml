@@ -1,0 +1,28 @@
+- name: DNA damage repair alterations and the prostate cancer immune microenvironment
+  collaborators: Dr. Corinne Maurice Dror, Dr. Alex Wyatt and Dr. Kim N. Chi (BC Cancer Genitourinary Biobank)
+  description: >
+    Prostate cancer is considered immunologically cold but certain prostate tumours harbour features of immunological activation
+    such as T cell and B cells organised in lymphoid myeloid aggregates. When viewed through the lens of immunogenicity, tumours
+    with defects in DNA damage repair genes have elevated neoantigen loads are associated with increased T cell infiltration and
+    potentially improved response to immunotherapy. However, the spatial organisation and function of immune cells within these DNA damage repair deficient tumours
+    is largely unexplored and could explain the variable responses across DNA damage repair subtypes. We leverage plasma cell-free DNA based genomic profiling and
+    high-plexed immunofluorescence imaging to fixed tumour tissue to capture tumour-immune cell interactions in a genotype aware manner.
+  photo: projects/PCmIFimage.png
+
+- name: Tumour-immune communication in human prostate cancer bone metastases
+  collaborators: Dr. Raphaele Charest-Morin (Vancouver Spine Oncology Biobank)
+  description: >
+   Bone metastases are present in >90% of patients with advanced treatment resistant prostate cancer. Yet cellular organisation and cell-to-cell communication
+   pathways in this are poorly understood. We have developed pathology informed workflows to capture spatial gene expression with human prostate cancer bone
+   metastases. From these spatial maps, we are deciphering how cancer cells and stromal cells including immune cells are positioned and the
+   interactions that support cancer cells in the bone. We aim to nominate bone specific mechanisms of resistance that can be targeted by novel immunotherapies.
+  photo: projects/PCBmet_PCF_schematics.png
+
+- name: The immune microenvironment of VHL-associated kidney cancer
+  collaborators: Dr. Maryam Soleimani (BC Cancer von Hippel Lindau Biobank)
+  description: >
+    VHL disease is a rare inherited condition characterised by recurring tumours in multiple organs including the eyes, brain, kidney and pancreas. In 2021, a systemic treatment called belzutifan was approved
+    for the treatment of VHL disease and patients responding to this treatment need fewer surgeries. However, most patients experience a partial response and response rates vary across
+    tumours in the kidney, brain and pancreas. Our lab studies the correlation between the type of VHL gene mutation and response to belzutifan, the role of immune cells in aiding or abetting tumour escape
+    and how VHL tumours develop resistance to belzutifan.
+  photo: projects/rcc_mif_crop.png

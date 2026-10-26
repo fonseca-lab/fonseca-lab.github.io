@@ -1,4 +1,23 @@
-title: Fonseca Lab
-description: Cancer immunogenomics at the University of Victoria
-theme: jekyll-theme-slate
-show_downloads: false
+title: Cancer immunogenomics at the University of Victoria
+lab_name: Fonseca Laboratory
+author: >
+  Nicolette Fonseca the Fonseca laboratory
+institution: UVic
+email: nfonseca@uvic.ca
+description: >
+  The Fonseca Lab studies how cancer-driving DNA alterations
+  modulate the immune response using genomic profiling and
+  spatial biology approaches.
+baseurl: ""
+url: "https://nicolettef.github.io"
+images_dir: "/images/"
+
+# Build settings
+markdown: kramdown
+include: ["_pages"]
+permalink: /:title/
+
+#plugins for search engine optimization
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
