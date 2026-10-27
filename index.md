@@ -14,7 +14,7 @@ We also study a rare inherited form of kidney cancer caused by inactivation of t
 
 The lab is located at the Deeley Research Centre (part of BC Cancer-Victoria) on beautiful Vancouver Island. Our translational research benefits from close ties with colleagues at the University of Victoria, the Vancouver Prostate Centre, Vancouver General Hospital and BC Cancer-Vancouver.
 
-### Oppertunities Open!
+### Opportunities Open!
 We currently have positions available for two graduate students. Please see the Contact section for details.
 
 <p> BC Cancer-Victoria and the University of Victoria are located on the traditional and unceded territory of the L&#x259;k&#x313;&#x2B7;&#x259;&#x14B;&#x259;n Peoples, known today as the Esquimalt and Songhees Nations. </p>

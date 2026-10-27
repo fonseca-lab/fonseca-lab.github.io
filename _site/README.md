@@ -1,2 +1,2 @@
-# nicolettef.github.io
+# fonseca-lab.github.io
 Lab website
