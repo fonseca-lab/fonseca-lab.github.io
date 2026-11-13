@@ -1,0 +1,499 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	color-scheme: light;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	background: #f3efe8;
+	color: #241f1a;
+	font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0625rem;
+	font-weight: 400;
+	line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	vertical-align: middle;
+}
+
+a {
+	color: #1e3a5f;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.16em;
+}
+
+a:hover {
+	color: #241f1a;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+	outline: 1px solid #241f1a;
+	outline-offset: 2px;
+}
+
+.wrap {
+	width: min(68rem, calc(100% - 3rem));
+	margin: 0 auto;
+}
+
+.site-header {
+	background: #fbf9f6;
+	border-top: 5px solid #1b3a4b;
+	border-bottom: 1px solid #e3dcd2;
+}
+
+.mast {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 1.5rem 2.5rem;
+	padding: 1.2rem 0 0.95rem;
+}
+
+.site-title,
+.site-title:visited {
+	color: #241f1a;
+	font-family: Newsreader, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+	font-size: 1.85rem;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+	line-height: 1.1;
+	text-decoration: none;
+}
+
+.title-institution {
+	color: #6a6258;
+	font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+.site-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 0.35rem 1.4rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav a,
+.site-nav a:visited {
+	color: #241f1a;
+	font-size: 0.98rem;
+	text-decoration: none;
+}
+
+.site-nav a[aria-current="page"] {
+	color: #1b3a4b;
+	text-decoration: underline;
+	text-decoration-color: #1b3a4b;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.35em;
+}
+
+.page {
+	padding: 1.75rem 0 3.25rem;
+}
+
+.page.flush {
+	padding-bottom: 0;
+}
+
+.page h1 {
+	margin-bottom: 1.5rem;
+	font-family: Newsreader, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+	font-size: 2.15rem;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+	line-height: 1.15;
+}
+
+.prose {
+	max-width: 40rem;
+}
+
+.prose h3,
+.person h3,
+.people h2,
+.project h2,
+.alumni-heading,
+.year {
+	font-family: Newsreader, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+	font-weight: 500;
+	letter-spacing: -0.015em;
+	line-height: 1.25;
+}
+
+.prose h3 {
+	margin: 0 0 0.7rem;
+	font-size: 1.55rem;
+}
+
+.prose .lead {
+	font-family: Newsreader, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+	font-size: 1.22rem;
+	line-height: 1.55;
+}
+
+.prose h3+p,
+.prose h4+p {
+	margin-top: 0;
+}
+
+.prose h3:not(:first-child) {
+	margin-top: 1.8rem;
+}
+
+.prose h4 {
+	margin: 1.15rem 0 0.35rem;
+	font-family: Newsreader, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+	font-size: 1.15rem;
+	font-weight: 500;
+	line-height: 1.35;
+}
+
+.prose p,
+.project p,
+.person p {
+	margin: 0 0 0.95rem;
+}
+
+.banner {
+	display: block;
+	width: 100vw;
+	max-width: 100vw;
+	height: 20rem;
+	margin: -1.75rem calc(50% - 50vw) 2rem;
+	object-fit: cover;
+	object-position: center 60%;
+}
+
+.note,
+.pub-source {
+	color: #6a6258;
+	font-size: 0.92rem;
+}
+
+.prose p.acknowledgement {
+	margin: 1.85rem 0 0;
+	padding: 1.15rem 0;
+	background: #bfd0d9;
+	box-shadow: 0 0 0 100vmax #bfd0d9;
+	clip-path: inset(0 -100vmax);
+}
+
+.project {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(9rem, 34%);
+	grid-template-areas: "copy figure";
+	gap: 1.25rem 2.25rem;
+	align-items: start;
+	padding: 1.7rem 0;
+	border-top: 1px solid #e3dcd2;
+}
+
+.project:nth-child(even) {
+	grid-template-columns: minmax(9rem, 34%) minmax(0, 1fr);
+	grid-template-areas: "figure copy";
+}
+
+.project-copy {
+	grid-area: copy;
+	min-width: 0;
+}
+
+.project img {
+	grid-area: figure;
+	display: block;
+	width: 100%;
+	min-width: 0;
+	max-width: 100%;
+	margin: 0.2rem 0 0;
+	padding: 0.35rem;
+	border: 1px solid #e3dcd2;
+	background: #fffdf9;
+	object-fit: contain;
+}
+
+.project h2 {
+	margin-bottom: 0.75rem;
+	font-size: 1.45rem;
+}
+
+.person {
+	display: grid;
+	grid-template-columns: 16.5rem minmax(0, 1fr);
+	gap: 0.35rem 2rem;
+	align-items: start;
+	padding: 1.85rem 0;
+	border-top: 1px solid #e3dcd2;
+}
+
+.person:not(:has(.portrait))>div {
+	grid-column: 2;
+}
+
+.portrait {
+	width: 16.5rem;
+	height: 20.5rem;
+	object-fit: cover;
+	object-position: center 15%;
+	border: 1px solid #e3dcd2;
+	background: #fffdf9;
+}
+
+.person h3 {
+	margin-bottom: 0.45rem;
+	font-size: 1.45rem;
+}
+
+.person .position {
+	color: #6a6258;
+	font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.02rem;
+	font-weight: 400;
+}
+
+.person-links {
+	display: flex;
+	gap: 0.55rem;
+	align-items: center;
+	margin-top: 0.15rem;
+}
+
+.person-links a,
+.person-links a:visited {
+	display: inline-flex;
+	line-height: 0;
+	color: #1b3a4b;
+}
+
+.person-links a:hover {
+	color: #241f1a;
+}
+
+.person-links svg {
+	display: block;
+	width: 22px;
+	height: 22px;
+	fill: currentColor;
+}
+
+.alumni-heading {
+	margin: 2.4rem 0 0;
+	font-size: 1.7rem;
+}
+
+.pub-source {
+	margin: -0.4rem 0 0.2rem;
+}
+
+.year-group {
+	display: grid;
+	grid-template-columns: 4.5rem minmax(0, 1fr);
+	gap: 0.15rem 1.75rem;
+	padding: 1.15rem 0 0.25rem;
+	border-top: 1px solid #e3dcd2;
+}
+
+.year {
+	margin: 0.15rem 0 0;
+	font-size: 1.15rem;
+	font-variant-numeric: tabular-nums;
+}
+
+.pubs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pub {
+	margin: 0 0 1.1rem;
+}
+
+.pub a,
+.pub a:visited {
+	color: #241f1a;
+	font-family: Newsreader, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+	font-size: 1.08rem;
+	line-height: 1.35;
+}
+
+.authors,
+.venue {
+	display: block;
+	color: #6a6258;
+	font-size: 0.95rem;
+	line-height: 1.45;
+}
+
+.venue {
+	font-style: italic;
+}
+
+.site-footer {
+	background: #1b3a4b;
+	padding: 1.5rem 0 2rem;
+}
+
+.site-footer p {
+	max-width: 40rem;
+	color: #e6e0d6;
+	font-size: 0.95rem;
+}
+
+.positions .prose>h2 {
+	margin: 0 0 0.75rem;
+	font-family: Newsreader, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+	font-size: 1.55rem;
+	font-weight: 500;
+	letter-spacing: -0.015em;
+}
+
+.role-pair {
+	display: flex;
+	flex-direction: column;
+	gap: 0.65rem;
+	margin-bottom: 1.15rem;
+}
+
+.role-pair h3 {
+	margin: 0;
+	padding: 0.75rem 0.85rem;
+	background: #fffdf9;
+	border-top: 3px solid #1b3a4b;
+	font-family: Newsreader, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+	font-size: 1.12rem;
+	font-weight: 500;
+	line-height: 1.35;
+}
+
+.positions {
+	display: grid;
+	grid-template-columns: minmax(0, 1.3fr) minmax(18rem, 24rem);
+	gap: 2rem 2.5rem;
+	align-items: start;
+}
+
+.positions .prose {
+	max-width: none;
+}
+
+form.wj-contact {
+	position: sticky;
+	top: 1.25rem;
+	margin: 0;
+	padding: 0.85rem 0.85rem 0.95rem;
+	background: #1b3a4b;
+	color: #f6f3ee;
+	font-size: 0.88rem;
+	line-height: 1.35;
+}
+
+form.wj-contact input[type="email"],
+form.wj-contact input[type="text"],
+form.wj-contact textarea {
+	display: block;
+	width: 100%;
+	min-width: 0;
+	margin: 0.12rem 0 0.4rem;
+	padding: 0.32rem 0.45rem;
+	border: 0;
+	border-radius: 0;
+	background: #f6f3ee;
+	color: #241f1a;
+	font: inherit;
+}
+
+form.wj-contact textarea {
+	min-height: 5.5rem;
+	resize: vertical;
+}
+
+form.wj-contact button[type="submit"] {
+	margin-top: 0.15rem;
+	padding: 0.32rem 0.7rem;
+	font-size: 0.88rem;
+	border: 1px solid #f6f3ee;
+	border-radius: 0;
+	background: #f6f3ee;
+	color: #1b3a4b;
+	font: inherit;
+	cursor: pointer;
+}
+
+form.wj-contact button[type="submit"]:hover {
+	background: #fff;
+}
+
+@media (max-width: 800px) {
+	.mast {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.75rem;
+	}
+
+	.site-nav ul {
+		justify-content: flex-start;
+	}
+
+	.role-pair,
+	.positions,
+	.project,
+	.project:nth-child(even),
+	.year-group,
+	.person,
+	.person:not(:has(.portrait)) {
+		grid-template-columns: 1fr;
+	}
+
+	.project,
+	.project:nth-child(even) {
+		grid-template-areas:
+			"figure"
+			"copy";
+	}
+
+	.person:not(:has(.portrait))>div {
+		grid-column: auto;
+	}
+
+	.portrait {
+		width: min(100%, 20rem);
+		height: 24rem;
+	}
+
+	.banner {
+		height: 13rem;
+	}
+
+	.page h1,
+	.site-title {
+		font-size: 1.6rem;
+	}
+}

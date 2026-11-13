@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import { publications } from '../data/publications';
+import { site } from '../data/site';
+
+const byYear = new Map<string, typeof publications>();
+for (const publication of publications) {
+	const list = byYear.get(publication.year) ?? [];
+	list.push(publication);
+	byYear.set(publication.year, list);
+}
+
+const years = [...byYear.keys()].sort((a, b) => Number(b) - Number(a));
+---
+
+<Base title="Publications" pageTitle="Publications">
+	<p class="pub-source">
+		Listed from <a href={site.scholar}>Nicolette Fonseca’s Google Scholar</a> profile.
+	</p>
+	{years.map((year) => (
+		<section class="year-group">
+			<h2 class="year">{year}</h2>
+			<ul class="pubs">
+				{byYear.get(year)?.map((publication) => (
+					<li class="pub">
+						<a href={publication.href} set:html={publication.title} />
+						<span class="authors">{publication.authors}</span>
+						{publication.venue && <span class="venue">{publication.venue}</span>}
+					</li>
+				))}
+			</ul>
+		</section>
+	))}
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { projects } from '../data/projects';
+---
+
+<Base title="Projects" pageTitle="Projects">
+	{projects.map((project) => (
+		<article class="project">
+			<div class="project-copy">
+				<h2>{project.name}</h2>
+				<p>
+					<b>Collaborators: </b>{project.collaborators}
+				</p>
+				<p>{project.description}</p>
+			</div>
+			<img src={project.photo} alt="" />
+		</article>
+	))}
+</Base>

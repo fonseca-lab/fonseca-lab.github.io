@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import Member from '../components/Member.astro';
+import { team } from '../data/team';
+
+const current = team.filter((member) => member.current);
+const investigators = current.filter((member) => member.pi);
+const members = current.filter((member) => !member.pi);
+const alumni = team.filter((member) => !member.current);
+---
+
+<Base title="The Fonseca Lab" pageTitle="The Fonseca Lab">
+	<div class="people">
+		{investigators.map((member) => <Member member={member} />)}
+		{members.map((member) => <Member member={member} />)}
+		<h2 class="alumni-heading">Alumni</h2>
+		{alumni.map((member) => <Member member={member} />)}
+	</div>
+</Base>
