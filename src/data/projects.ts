@@ -28,4 +28,11 @@ export const projects: Project[] = [
 			'VHL disease is a rare inherited condition characterised by recurring tumours in multiple organs including the eyes, brain, kidney and pancreas. In 2021, a systemic treatment called belzutifan was approved for the treatment of VHL disease and patients responding to this treatment need fewer surgeries. However, most patients experience a partial response and response rates vary across tumours in the kidney, brain and pancreas. Our lab studies the correlation between the type of VHL gene mutation and response to belzutifan, the role of immune cells in aiding or abetting tumour escape and how VHL tumours develop resistance to belzutifan.',
 		photo: '/images/projects/rcc_mif_crop.png',
 	},
+	{
+		name: 'The von Hippel-Lindau Biobank',
+		collaborators: 'Dr. Maryam Soleimani (Co-Director and Co-Founder)',
+		description:
+			'VHL disease is a rare genetic disorder characterized by the increased risk of tumour development in specific parts of the body due to the inactivation of the VHL tumour suppressor gene. The VHL Biobank collects and stores biospecimens and clinical data to support research and enhance health outcomes for individuals with VHL disease.This biobank is one of the only VHL Biobanks in Canada. Dr.Fonseca\'s Lab is responsible for the organization, sample banking, and storage of all VHL Biobank patient samples.Upcoming research projects related to the VHL Biobank in the Fonseca Lab involve spatial immune profiling of VHL- associated clear cell renal cell carcinoma. More information about VHL disease can be found through the <a href="https://cvhla.ca/"> Canadian VHL Alliance </a> or from <a href="https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.e22620"> recent publications </a>.',
+		photo: '/images/projects/vhlbb_lifecycle.png',
+	},
 ];

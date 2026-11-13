@@ -11,7 +11,7 @@ import { projects } from '../data/projects';
 				<p>
 					<b>Collaborators: </b>{project.collaborators}
 				</p>
-				<p>{project.description}</p>
+				<p set:html={project.description}></p>
 			</div>
 			<img src={project.photo} alt="" />
 		</article>
