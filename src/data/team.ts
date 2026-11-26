@@ -43,7 +43,7 @@ export const team: Member[] = [
 		photo: '/images/team/jsidhu.jpeg',
 		scholar: 'https://scholar.google.ca/citations?hl=en&user=j3wC8NIAAAAJ',
 		github: 'https://github.com/jaspreetks',
-		bio: 'I have a BSc in Microbiology and Computer Science. My previous research includes catalysis and organometallic chemistry with the McIndoe group at UVic and infectious bacterial disease surveillance at the National Microbiology Laboratory. My current role is spread over multiple projects, testing and building computation pipelines for immune cell phenotyping from spatial imaging data (Phenocycler Fusion and 10X Visium HD) and calling genetic immune escape events in patient samples. When I\'m not at my keyboard (rare), I enjoy pilates, formula 1, attempting latte art, and building more keyboards.',
+		bio: 'I\'m a bioinformatics researcher with a BSc in Microbiology and Computer Science. I\'ve previously developed a machine learning-based Python package for detecting plant virus infections from whole genome sequencing data, and a population genomics workflow for variant calling and genome-wide association analysis in Chinook salmon. At the Fonseca Lab, I test and build computation pipelines for immune cell phenotyping from spatial imaging data (Phenocycler Fusion and 10X Visium HD) and calling genetic immune escape events in patient samples. When I\'m not at my keyboard (rare), I enjoy pilates, formula 1, attempting latte art, and building more keyboards.',
 	},
 	{
 		name: 'Cass Luksik',
@@ -62,16 +62,19 @@ export const team: Member[] = [
 		bio: 'I am currently pursuing a BSc with Honours in Biochemistry at the University of Victoria. My work in the Fonseca lab revolves around image analysis of cancerous prostate tissue from patients with DNA damage repair deficiencies. In analyzing these images, I hope to characterize immune cell populations and infiltration in this unique subset of prostate cancer patients. Outside of the lab, I try to spend as much time as I can in nature and am an avid climber, hiker, skier, etc!',
 	},
 	{
-		name: 'Nicole Aggrey-Fynn',
-		position: 'Work study student',
-		current: false,
-		photo: '/images/team/naggreyfynn.jpg',
-		bio: 'Nicole was the first work-study student in the lab. She helped test QuPath for viewing multiplexed immunofluorescence images and helped us understand how immune cell markers stain in bone marrow by inspecting images from a <a href="https://doi.org/10.1016/j.cell.2024.04.013">published dataset</a>.',
+		name: 'Yong Jin Kweon',
+		position: '',
+		current: true,
+		photo: '/images/team/yjkweon.jpeg',
+		github: 'https://github.com/yjkweon24',
+		scholar: 'https://scholar.google.com/citations?user=0NsnLI8AAAAJ&hl=en',
+		bio: 'I am a computational biology researcher specializing in single-cell, spatial omics and statistical modeling. With a background in statistics (BA) and experimental medicine (MSc), I developed DTractor, a spatial transcriptomics deconvolution method, and a statistical framework for detecting disease-associated cellular co-abundance across multiple diseases. I have also worked on clinical and epigenomic data analysis in oncology and neurodegeneration, including LLM-based imputation of patient-reported outcomes in esophageal cancer. At the Fonseca lab, I support spatial biology and genomics analyses of advanced genitourinary cancers.',
 	},
 	{
 		name: 'Camilo Cuellar',
 		position: 'Mitacs Globalink Research Intern (Summer 2026)',
 		current: false,
+		github: 'https://github.com/camiloandcu',
 		bio: 'Camilo spent the summer months with us evaluating methods to co-register H&E and mIF images so we could teach GigaTIME to predict a virtual population of immune cells. He also helped us process our first Visium HD spatial transcriptomics datasets. He has returned to Colombia to complete the final year of his Systems Engineering undergraduate program.',
 	},
 	{
@@ -92,6 +95,13 @@ export const team: Member[] = [
 		current: false,
 		photo: '/images/team/cstpierrerosales.jpg',
 		bio: 'Carolina helped us put together a protocol for extracting mRNA from FFPE tissue and learned how the 10X Visium HD platform enables spatial gene expression analysis. She is now back in school completing her final year of undergraduate studies at UVic.',
+	},
+	{
+		name: 'Nicole Aggrey-Fynn',
+		position: 'Work study student',
+		current: false,
+		photo: '/images/team/naggreyfynn.jpg',
+		bio: 'Nicole was the first work-study student in the lab. She helped test QuPath for viewing multiplexed immunofluorescence images and helped us understand how immune cell markers stain in bone marrow by inspecting images from a <a href="https://doi.org/10.1016/j.cell.2024.04.013">published dataset</a>.',
 	},
 	{
 		name: 'Erin Bell',
